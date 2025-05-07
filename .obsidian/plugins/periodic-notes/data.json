@@ -1,0 +1,35 @@
+{
+  "showGettingStartedBanner": false,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "folder": "00-work/00-Daily-Notes",
+    "template": "99-template/日报.md",
+    "enabled": true,
+    "format": "YYYY-MM-DD"
+  },
+  "weekly": {
+    "format": "GGGG-[W]WW",
+    "template": "99-config/模板/周报.md",
+    "folder": "00-work/01-Periodic-Notes",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "YYYY-MM",
+    "template": "99-config/模板/月报.md",
+    "folder": "00-work/01-Periodic-Notes",
+    "enabled": true
+  },
+  "quarterly": {
+    "format": "YYYY-[Q]Q",
+    "template": "99-config/模板/季报.md",
+    "folder": "00-work/01-Periodic-Notes",
+    "enabled": true
+  },
+  "yearly": {
+    "format": "YYYY",
+    "template": "99-config/模板/年报.md",
+    "folder": "00-work/01-Periodic-Notes",
+    "enabled": true
+  }
+}

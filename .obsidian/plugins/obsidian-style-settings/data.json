@@ -1,0 +1,22 @@
+{
+  "Appearance-dark@@card-layout-open-dark": false,
+  "Appearance-dark@@theme-dark-style-select": "theme-dark-background-default",
+  "Appearance-light@@theme-light-style-select": "theme-light-background-adapt",
+  "Appearance-light@@card-layout-open-light": false,
+  "Components@@CTA-BTN-enable": false,
+  "Components@@file-names-untrim": false,
+  "anuppuccin-theme-settings@@anp-canvas-dark-bg": false,
+  "anuppuccin-theme-settings@@anp-alt-rainbow-style": "anp-simple-rainbow-color-toggle",
+  "anuppuccin-theme-settings@@anp-rainbow-file-toggle": false,
+  "anuppuccin-theme-settings@@anp-simple-rainbow-title-toggle": true,
+  "anuppuccin-theme-settings@@anp-simple-rainbow-collapse-icon-toggle": true,
+  "anuppuccin-theme-settings@@anp-simple-rainbow-indentation-toggle": true,
+  "anuppuccin-theme-settings@@anp-simple-rainbow-icon-toggle": true,
+  "anuppuccin-theme-settings@@anp-rainbow-subfolder-color-toggle": true,
+  "anuppuccin-theme-settings@@anp-active-line": "anp-current-line-border",
+  "anuppuccin-theme-settings@@anp-codeblock-numbers": false,
+  "anuppuccin-theme-settings@@anp-header-color-toggle": true,
+  "anuppuccin-theme-settings@@anp-header-margin-toggle": false,
+  "anuppuccin-theme-settings@@anp-kanban-lanes": true,
+  "anuppuccin-theme-settings@@anp-color-transition-toggle": false
+}

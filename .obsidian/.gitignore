@@ -1,0 +1,3 @@
+workspace*.json
+plugins/copilot/data.json
+plugins/github-sync/data.json
