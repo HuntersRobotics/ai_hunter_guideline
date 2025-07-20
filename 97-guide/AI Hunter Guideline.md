@@ -87,7 +87,7 @@ sudo apt install -y can-utils
 
 ## 网口测试
 ![](AI%20Hunter%20Guideline-9.png)
-![](AI%20Hunter%20Guideline-10.png) 
+![](AI%20Hunter%20Guideline-10.png)   
 板卡上有两个网口，一个2.5G（2个GH1.25带锁连接器），一个是1000M（2个GH1.25带锁连接器）。
 ### 网口物理知识
 - 水晶头线序
