@@ -44,6 +44,22 @@ sudo ./upgrade_tool rd # 复位板卡，板卡即将重启
 > 烧写镜像的时候会有百分比进度，完成之后可以重启
 
 # 基本接口测试
+
+## 串口
+### Debug串口
+Debug串口使用的是15000000的波特率。不是所有的串口模块都能支持这个波特率，如果需要使用调试串口的功能，建议购买FT232的串口模块。板卡调试串口使用的是超小的接口，间距1.0mm的sh1.0连接器。
+![](AI%20Hunter%20Guideline-12.png)  
+
+### 485串口
+> 跟调试串口的同侧的是UART7（下图）， 另外一侧是UART4（UART7背面） 
+
+![](AI%20Hunter%20Guideline-13.png)  
+将这两个485接口短接，使用下图中的指令可以进行通信测试
+
+![](AI%20Hunter%20Guideline-14.png)
+### TTL串口
+![](AI%20Hunter%20Guideline-15.png)
+靠近maskrom按键附近的连接器是UART8，测试指令请参考485接口测试
 ## TYPE-C
 该接口是全功能type-c
 - USB hub， 可以扩展接口
@@ -116,4 +132,5 @@ ActivationPolicy=always-up
 sudo nmtui
 ```
 ![](AI%20Hunter%20Guideline-11.png)  
+
 
