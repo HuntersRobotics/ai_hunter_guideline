@@ -20,7 +20,9 @@ aliases:
 ## 烧写镜像
 ### 进入Maskrom模式
 按下maskrom按键，然后给板卡上电，板卡进入mask模式。  
-> 请注意虽然上电的端子是防呆的，但是一定注意XT30的正负极，仔细看下图中的丝印。
+> 请注意虽然上电的端子是防呆的，但是一定注意XT30的正负极，仔细看下图中的丝印。  
+
+
 ![](AI%20Hunter%20Guideline.png)  
 进入upgrade_tool文件夹，使用指令测试确认已经进入maskrom模式
 ```bash
@@ -58,7 +60,7 @@ Debug串口使用的是15000000的波特率。不是所有的串口模块都能�
 
 ![](AI%20Hunter%20Guideline-14.png)
 ### TTL串口
-![](AI%20Hunter%20Guideline-15.png)
+![](AI%20Hunter%20Guideline-15.png)  
 靠近maskrom按键附近的连接器是UART8，测试指令请参考485接口测试
 ## TYPE-C
 该接口是全功能type-c
