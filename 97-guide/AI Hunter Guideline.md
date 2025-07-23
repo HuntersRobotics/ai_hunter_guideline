@@ -128,6 +128,28 @@ ActivationPolicy=always-up
 > ls /sys/class/net 可以查看当前系统下能识别的网络设备，注意这里CAN其实也是一个网络设备  
 > 仔细查看配置文件，根据你的实际情况配置网络。建议配置静态IP，方便调试。
 
+#### 以太网带宽测试
+PC端和3588都需要安装iperf3
+```bash
+sudo apt install -y iperf3
+```
+
+设置好PC端的IP和板卡端的IP， 我这里电脑端ip是192.168.12.111， 板卡端的IP是192.168.12.200 , 然后一个作为服务端启动，一个作为客户端连接。测试完一轮之后，服务端和客户端对调再测试一轮。如下图所示：  
+![](AI%20Hunter%20Guideline-16.png)  
+> 上图中是板卡作为服务器， PC客户端去连接，可以看到这个2.5G的网卡接口我们可以跑到2.33G
+
+#### 高阶危险操作
+！！！ 该小结是高阶危险操作，不要轻易尝试。  
+如果使用多个英特尔I225-V网卡，默认的mac如果一样的话，需要尝试修改mac，如果不熟悉mac地址的规则，建议只修改mac后三个字节。
+针对于我们这里的网卡，可以这么设置：
+```bash
+sudo ethtool -E eth0 magic 0x15f38086 offset 3 length 1 value 0x11
+sudo ethtool -E eth0 magic 0x15f38086 offset 4 length 1 value 0x22
+sudo ethtool -E eth0 magic 0x15f38086 offset 5 length 1 value 0x33
+```
+
+只有一次的修改机会，如果使用没有问题，不建议修改。
+
 ## WIFI
 	板卡上预留了一个m2接口的，走PCIe的无线网卡，同时也支持蓝牙。支持英特尔9260，英特尔8265，瑞昱的RTL8822等网卡。配置无线网卡可以使用以下指令
 ```bash
