@@ -46,6 +46,7 @@ sudo ./upgrade_tool rd # 复位板卡，板卡即将重启
 > 烧写镜像的时候会有百分比进度，完成之后可以重启
 
 # 基本接口测试
+> **默认用户是hunter，密码是一个空格**
 
 ## 串口
 ### Debug串口
@@ -84,6 +85,18 @@ sudo apt install -y can-utils
 ```
 短接我们板卡的两个can口，然后按照以下指令测试
 ![](AI%20Hunter%20Guideline-8.png)  
+
+### 进阶配置
+- canfd配置
+![](AI%20Hunter%20Guideline-17.png) 
+   
+![](AI%20Hunter%20Guideline-19.png)  
+
+- can配置
+![](AI%20Hunter%20Guideline-20.png) 
+![](AI%20Hunter%20Guideline-21.png)  
+
+
 
 ## 网口测试
 ![](AI%20Hunter%20Guideline-9.png)
