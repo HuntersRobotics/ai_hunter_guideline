@@ -87,12 +87,12 @@ sudo apt install -y can-utils
 ![](AI%20Hunter%20Guideline-8.png)  
 
 ### 进阶配置
-- canfd配置
+- canfd配置  
 ![](AI%20Hunter%20Guideline-17.png) 
    
 ![](AI%20Hunter%20Guideline-19.png)  
 
-- can配置
+- can配置  
 ![](AI%20Hunter%20Guideline-20.png) 
 ![](AI%20Hunter%20Guideline-21.png)  
 
