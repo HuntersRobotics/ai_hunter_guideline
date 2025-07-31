@@ -6,6 +6,6 @@ date_creation: 2025-07-17
 aliases:
 ---
 
-[AI Hunter Guideline](97-guide/AI%20Hunter%20Guideline.md)
+[AI Hunter Guideline](97-guide/AI%20Hunter%20Guideline.md)  
 [AI Hunter产品详细介绍](96-munual/AI%20Hunter产品详细介绍.md)
 
