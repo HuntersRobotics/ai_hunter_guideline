@@ -20,7 +20,7 @@ aliases:
 - 专业视频处理：内置硬件编解码器，实现超低延迟视频流处理
 
 专为机器人应用深度优化：
-✓ 硬件级EtherCAT支持：采用IgH Ethercat Master网卡，性能提升30%
+✓ 硬件级EtherCAT支持：采用IgH Ethercat Master网卡
 ✓ 高速存储：PCIe3.0 x4 NVMe接口，满足海量数据高速写入需求
 ✓ 灵活扩展：预留M.2 E-Key接口，支持高速无线通信模块
 ✓ 工业级接口：完整支持CAN/CANFD、micro HDMI、RS485/UART_TTL
