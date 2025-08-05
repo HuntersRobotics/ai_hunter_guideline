@@ -170,4 +170,19 @@ sudo nmtui
 ```
 ![](AI%20Hunter%20Guideline-11.png)  
 
+## 存储设备测试
+### NVME
+```bash
+sudo lspci -vv
+```
+![](AI%20Hunter%20Guideline-22.png)  
+> 注意到这里nvme正确是别到是X4的接入方式。仔细观察会发现这里有个downgraded状态，但是事实上RK3588只有PCIe3.0x4，16GT/s的速度是4.0的标准，事实上我们的板卡是支持3.0的8x4的32GT/s的速度。  
+
+![](AI%20Hunter%20Guideline-24.png)  
+![](AI%20Hunter%20Guideline-23.png)  
+> 上图中可以看到我们已经将硬盘挂载到/mnt/ssd下，然后使用dd指令分别进行读写测试，从图中结果可以看出，博主使用的ssd在板卡上的写入速度是866MB/s，读取速度是1.3GB/s
+
+### sd卡
+在nvme的测试中，可以看到博主把sd卡挂载到了/media/exfat/tf_card目录之下，使用nvme中dd指令测试即可，这里过多不再赘述。
+
 
