@@ -164,12 +164,17 @@ sudo ethtool -E eth0 magic 0x15f38086 offset 5 length 1 value 0x33
 
 只有一次的修改机会，如果使用没有问题，不建议修改。
 
+### Ethercat测试
+本产品当前版本的2.5G网口支持Ethercat的驱动层适配，具体Demo和应用请看[这个链接](https://github.com/HuntersRobotics/ethercat_example.git) 
+
 ## WIFI
 	板卡上预留了一个m2接口的，走PCIe的无线网卡，同时也支持蓝牙。支持英特尔9260，英特尔8265，瑞昱的RTL8822等网卡。配置无线网卡可以使用以下指令
 ```bash
 sudo nmtui
 ```
 ![](AI%20Hunter%20Guideline-11.png)  
+> WIFI的带宽测试可以使用iperf3继续测试，测试方法参考以太网带宽测试。无线网络的带宽跟无线信号和干扰是强相关关系，如果需要高带宽无线网，请选择干净的信道。建议使用WIFI6路由器和无线网卡。
+
 
 ## 存储设备测试
 ### NVME
