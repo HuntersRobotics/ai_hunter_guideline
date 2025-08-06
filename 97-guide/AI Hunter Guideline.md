@@ -8,7 +8,7 @@ aliases:
 
 注意：
 1. 目前所有测试和操作均在Ubuntu 22.04上进行
-2. 板卡输入电压是12V
+2. 板卡输入电压是12V,，最高18V，不建议加太高电压
 
 # 烧写程序
 ## 下载或者clone本仓库
@@ -16,6 +16,7 @@ aliases:
 [github](https://github.com/HuntersRobotics/ai_hunter_guideline)
 ## 下载AI Hunter的镜像
 访问 https://downloads.hunters-tech.com/rk3588  
+或者百度网盘: https://pan.baidu.com/s/1y6nbbdu52ssyxur_cvg5Rw?pwd=hvmw 提取码: hvmw   
 选择你需要的版本。
 ## 烧写镜像
 ### 进入Maskrom模式
@@ -26,24 +27,24 @@ aliases:
 ![](AI%20Hunter%20Guideline.png)  
 进入upgrade_tool文件夹，使用指令测试确认已经进入maskrom模式
 ```bash
-sudo ./upgrade_tool ld 
+sudo ./upgrade_tool ld # 该指令在PC上运行
 ```
 ![](AI%20Hunter%20Guideline-1.png)  
 ### 烧写镜像和重启
 - 先解压你的镜像
 下载的镜像是gz的压缩格式，需要用gunzip解压
 ```bash
-gunzip your_image.img.gz
+gunzip your_image.img.gz # 该指令在PC上运行
 ```
 
--  烧写镜像
+-  烧写镜像   
 
 ```
 sudo ./upgrade_tool db rk3588_spl_loader_v1.18.113.bin # 烧写内存初始化固件
 sudo ./upgrade_tool wl 0 your_image.img # 烧写镜像，改成你的镜像的路径
 sudo ./upgrade_tool rd # 复位板卡，板卡即将重启
 ```
-> 烧写镜像的时候会有百分比进度，完成之后可以重启
+> 烧写镜像的时候会有百分比进度，完成之后可以重启，烧写相关的指令都需要再PC上运行
 
 # 基本接口测试
 > **默认用户是hunter，密码是一个空格**
