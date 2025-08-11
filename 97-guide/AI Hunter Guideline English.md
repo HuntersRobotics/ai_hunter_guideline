@@ -97,7 +97,9 @@ Requires MicroHDMI-to-HDMI cable
 
 #### Basic Configuration
 ![CAN Config](AI%20Hunter%20Guideline-5.png)
-![CAN Setup](AI%20Hunter%20Guideline-4.png)
+![CAN Setup](AI%20Hunter%20Guideline-4.png)  
+
+
 Set to 500kbps:
 
 ![CAN Status](AI%20Hunter%20Guideline-7.png)
@@ -119,6 +121,7 @@ sudo apt install -y can-utils
 ![CAN FD Config](AI%20Hunter%20Guideline-19.png)
 
 **Standard CAN:**
+
 ![CAN Setup](AI%20Hunter%20Guideline-20.png)
 ![CAN Config](AI%20Hunter%20Guideline-21.png)
 
@@ -156,7 +159,8 @@ sudo apt install -y iperf3
 ```
 
 
-2. Run tests:
+2. Run tests:  
+
 ![Bandwidth Test](AI%20Hunter%20Guideline-16.png)
 
 #### Advanced MAC Modification
@@ -189,7 +193,8 @@ sudo lspci -vv
 ```
 ![NVMe Detection](AI%20Hunter%20Guideline-22.png)
 
-Performance test:
+Performance test:  
+
 ![NVMe Performance](AI%20Hunter%20Guideline-24.png)
 ![NVMe Speed](AI%20Hunter%20Guideline-23.png)
 
