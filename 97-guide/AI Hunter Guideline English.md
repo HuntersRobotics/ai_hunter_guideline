@@ -96,9 +96,10 @@ Requires MicroHDMI-to-HDMI cable
 ### CAN Bus Testing
 
 #### Basic Configuration
-Set to 500kbps:
 ![CAN Config](AI%20Hunter%20Guideline-5.png)
 ![CAN Setup](AI%20Hunter%20Guideline-4.png)
+Set to 500kbps:
+
 ![CAN Status](AI%20Hunter%20Guideline-7.png)
 
 #### Loopback Test
