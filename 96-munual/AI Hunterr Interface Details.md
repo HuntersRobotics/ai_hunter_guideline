@@ -51,7 +51,7 @@ Pin define from left to right:
 |       |          |         |
 |       |          |         |
 
-Port1.1 <--> A and B groups
+Port1.1 <--> A and B groups  
 Port1.2 <--> C and D groups
 
 
@@ -66,5 +66,5 @@ Port1.2 <--> C and D groups
 | Ehtercat | √        | -       |
 
 
-Port2.1 <--> A and B groups
+Port2.1 <--> A and B groups  
 Port2.2 <--> C and D groups
