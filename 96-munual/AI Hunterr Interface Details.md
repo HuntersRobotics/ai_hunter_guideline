@@ -62,5 +62,5 @@ Port1.2 <--> C and D groups
 | 1000M    | √        | √       |
 | 2500     | √        | √       |
 | Ehtercat | √        | -       |
-Port1.1 <--> A and B groups
-Port1.2 <--> C and D groups
+Port2.1 <--> A and B groups
+Port2.2 <--> C and D groups
