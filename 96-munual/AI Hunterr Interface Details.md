@@ -41,7 +41,7 @@ Pin define from left to right:
 ### 5. Micro HDMI
 ## Left
 ![](AI%20Hunterr%20Interface%20Details-2.png)  
-### 1000M Ethercat
+### 1000M Ethernet
 
 | Mode  | Port 1.1 | Port1.2 |
 | ----- | -------- | ------- |
@@ -49,3 +49,18 @@ Pin define from left to right:
 | 100M  | √        | -       |
 | 1000M | √        | √       |
 |       |          |         |
+Port1.1 <--> A and B groups
+Port1.2 <--> C and D groups
+
+
+### 2500M Ethernet/Ethercat
+
+| Mode     | Port 1.1 | Port1.2 |
+| -------- | -------- | ------- |
+| 10M      | √        | -       |
+| 100M     | √        | -       |
+| 1000M    | √        | √       |
+| 2500     | √        | √       |
+| Ehtercat | √        | -       |
+Port1.1 <--> A and B groups
+Port1.2 <--> C and D groups
