@@ -68,3 +68,23 @@ Port1.2 <--> C and D groups
 
 Port2.1 <--> A and B groups  
 Port2.2 <--> C and D groups
+
+### Debug UART
+This port level is 3.3V, pin define from left to right:
+
+|     |     |     |
+| --- | --- | --- |
+| **TX**  | **RX**  | **GND** |
+
+
+## Right
+![](AI%20Hunterr%20Interface%20Details-3.png)  
+
+### TTL UART8
+This port level is 3.3V, pin define from left to right:
+
+|     |     |     |
+| --- | --- | --- |
+| TX  | RX  | GND |
+
+
