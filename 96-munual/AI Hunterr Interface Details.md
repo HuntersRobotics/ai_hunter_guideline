@@ -80,11 +80,38 @@ This port level is 3.3V, pin define from left to right:
 ## Right
 ![](AI%20Hunterr%20Interface%20Details-3.png)  
 
-### TTL UART8
+### 1. TTL UART8
 This port level is 3.3V, pin define from left to right:
 
 |     |     |     |
 | --- | --- | --- |
 | TX  | RX  | GND |
+### 2. MaskROM KEY
+Press it when power on the AI Hunter, the device will enter mask  mode.  you can upgrade your  OS in the mode.
 
+### 3. Type-C
+-  The Type-C can connect to a monitor via itself DP signal.
+-  You can upgrade your OS via the port.
+-  Connect a USB hub as USB master
+
+### 4. CAN1 
+
+This port level is 3.3V, pin define from left to right:
+
+|       |       |     |
+| ----- | ----- | --- |
+| CAN_H | CAN_L | GND |
+
+### 5. CAN2
+This port level is 3.3V, pin define from left to right:
+
+|     |       |       |
+| --- | ----- | ----- |
+| GND | CAN_L | CAN_H |
+### 6. 1.8V ADC Port
+Pin define from left to right:
+
+|      |      |      |      |     |
+| ---- | ---- | ---- | ---- | --- |
+| ADC3 | ADC5 | ADC6 | ADC7 | GND |
 
