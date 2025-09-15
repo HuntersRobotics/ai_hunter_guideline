@@ -16,7 +16,8 @@ aliases:
 
 ### Download the AI Hunter Image
 Visit https://downloads.hunters-tech.com/rk3588  
-Or Baidu Netdisk: https://pan.baidu.com/s/1y6nbbdu52ssyxur_cvg5Rw?pwd=hvmw Extraction code: hvmw  
+Or Baidu Netdisk: https://pan.baidu.com/s/1y6nbbdu52ssyxur_cvg5Rw?pwd=hvmw Extraction code: hvmw    
+or Google Drive: https://drive.google.com/drive/folders/1UF_oTc2PZreQCcvoYkweERQwv4sSaitP?usp=sharing  
 Select the version you need.
 
 ### Flashing the Image

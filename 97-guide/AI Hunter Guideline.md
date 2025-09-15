@@ -16,7 +16,7 @@ aliases:
 [github](https://github.com/HuntersRobotics/ai_hunter_guideline)
 ## 下载AI Hunter的镜像
 访问 https://downloads.hunters-tech.com/rk3588  
-或者百度网盘: https://pan.baidu.com/s/1y6nbbdu52ssyxur_cvg5Rw?pwd=hvmw 提取码: hvmw   
+或者百度网盘: https://pan.baidu.com/s/1y6nbbdu52ssyxur_cvg5Rw?pwd=hvmw 提取码: hvmw   或者 google云盘: https://drive.google.com/drive/folders/1UF_oTc2PZreQCcvoYkweERQwv4sSaitP?usp=sharing 
 选择你需要的版本。
 ## 烧写镜像
 ### 进入Maskrom模式
