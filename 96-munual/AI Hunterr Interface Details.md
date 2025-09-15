@@ -40,3 +40,12 @@ Pin define from left to right:
 ### 4. TF card
 ### 5. Micro HDMI
 ## Left
+![](AI%20Hunterr%20Interface%20Details-2.png)  
+### 1000M Ethercat
+
+| Mode  | Port 1.1 | Port1.2 |
+| ----- | -------- | ------- |
+| 10M   | √        | -       |
+| 100M  | √        | -       |
+| 1000M | √        | √       |
+|       |          |         |
