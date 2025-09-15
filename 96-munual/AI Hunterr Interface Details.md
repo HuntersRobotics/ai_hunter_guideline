@@ -114,4 +114,20 @@ Pin define from left to right:
 |      |      |      |      |     |
 | ---- | ---- | ---- | ---- | --- |
 | ADC3 | ADC5 | ADC6 | ADC7 | GND |
+### 3.3V GPIO
+Pin define from left to right:
 
+|     |      |         |         |         |     |
+| --- | ---- | ------- | ------- | ------- | --- |
+| GND | PWM7 | GPIO3A6 | GPIO4A7 | GPIO4A6 | 3V3 |
+
+## Back
+![](AI%20Hunterr%20Interface%20Details-4.png)  
+### Power Input
+Pin define from left to right:
+
+|     |     |
+| --- | --- |
+| GND | 12V |
+> The input voltage must be lower than 17V, and 12V power supply is recommended. 
+> 
