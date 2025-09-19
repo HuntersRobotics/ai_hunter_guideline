@@ -194,4 +194,32 @@ sudo lspci -vv
 ### sd卡
 在nvme的测试中，可以看到博主把sd卡挂载到了/media/exfat/tf_card目录之下，使用nvme中dd指令测试即可，这里过多不再赘述。
 
+# AI Hunter Debian 软件包
+## 添加Kaylordut软件源
+```bash
+cat << 'EOF' | sudo tee /etc/apt/sources.list.d/kaylordut.list 
+deb [signed-by=/etc/apt/keyrings/kaylor-keyring.gpg] http://apt.kaylordut.cn/kaylordut/ kaylordut main
+deb [signed-by=/etc/apt/keyrings/kaylor-keyring.gpg] http://apt.kaylordut.cn/rk3588/ubuntu jammy main
+EOF
+sudo mkdir /etc/apt/keyrings -pv
+sudo wget -O /etc/apt/keyrings/kaylor-keyring.gpg http://apt.kaylordut.cn/kaylor-keyring.gpg
+sudo apt update
+
+```
+
+
+## RK3588 定频
+```bash
+sudo apt update
+sudo apt install -y rk3588-fixed-freq
+```
+
+```bash
+sudo systemctl start rk3588-set-cpu-max-freq.service
+```
+
+![](AI%20Hunter%20Guideline%20English.png)  
+
+
+
 
