@@ -206,3 +206,30 @@ dd if=/dev/zero of=/media/exfat/tf_card/testfile bs=1G count=1
 dd if=/media/exfat/tf_card/testfile of=/dev/null bs=1G count=1
 ```
 
+# AI Hunter Debian Software Packages
+
+## Add Kaylordut Software Source
+```bash
+cat << 'EOF' | sudo tee /etc/apt/sources.list.d/kaylordut.list 
+deb [signed-by=/etc/apt/keyrings/kaylor-keyring.gpg] http://apt.kaylordut.cn/kaylordut/ kaylordut main
+deb [signed-by=/etc/apt/keyrings/kaylor-keyring.gpg] http://apt.kaylordut.cn/rk3588/ubuntu jammy main
+EOF
+sudo mkdir /etc/apt/keyrings -pv
+sudo wget -O /etc/apt/keyrings/kaylor-keyring.gpg http://apt.kaylordut.cn/kaylor-keyring.gpg
+sudo apt update
+
+```
+
+
+## RK3588 Fixed Frequency
+```bash
+sudo apt update
+sudo apt install -y rk3588-fixed-freq
+```
+
+```bash
+sudo systemctl start rk3588-set-cpu-max-freq.service
+```
+
+![](AI%20Hunter%20Guideline%20English.png)  
+
