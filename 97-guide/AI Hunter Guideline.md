@@ -10,6 +10,9 @@ aliases:
 1. 目前所有测试和操作均在Ubuntu 22.04上进行
 2. 板卡输入电压是12V,，最高17V，不建议加太高电压
 
+# 视频教程
+部分操作视频在B站： https://www.bilibili.com/video/BV1JBWgzrEBw?vd_source=4ff1508ae274fe89e0797faf373af1f4&spm_id_from=333.788.videopod.sections
+
 # 烧写程序
 ## 下载或者clone本仓库
 [院内仓库](https://gitea.hunters-tech.com/HuntersRobotics/ai_hunter_guideline)  
