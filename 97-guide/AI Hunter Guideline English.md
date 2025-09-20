@@ -234,4 +234,6 @@ sudo systemctl start rk3588-set-npu-max-freq.service
 ```
 
 ![](AI%20Hunter%20Guideline%20English.png)  
+![](AI%20Hunter%20Guideline%20English-1.png)  
+![](AI%20Hunter%20Guideline%20English-2.png)  
 
