@@ -229,6 +229,8 @@ sudo apt install -y rk3588-fixed-freq
 
 ```bash
 sudo systemctl start rk3588-set-cpu-max-freq.service
+sudo systemctl start rk3588-set-gpu-max-freq.service
+sudo systemctl start rk3588-set-npu-max-freq.service
 ```
 
 ![](AI%20Hunter%20Guideline%20English.png)  
