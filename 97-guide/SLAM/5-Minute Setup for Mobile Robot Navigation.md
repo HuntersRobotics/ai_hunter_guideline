@@ -19,6 +19,7 @@ Package: *
 Pin: release o=kaylordut kaylordut,a=kaylordut,n=kaylordut,l=kaylordut kaylordut,c=main,b=arm64
 Pin-Priority: 1099
 EOF
+sudo apt update
 ```
 
 # Install ROS2
@@ -96,5 +97,5 @@ sudo apt update
 sudo apt install -y ros-humble-rcl ros-humble-linefit-ground-segmentation-ros ros-humble-livox-ros-driver2 liblivox-sdk2-dev
 sudo apt install -y ros-humble-hunter-point-lio ros-humble-hunter-fast-lio ros-humble-hunter-pointcloud-to-laserscan  ros-humble-hunter-navigation2
 sudo apt install -y ros-humble-spatio-temporal-voxel-layer
-sudo apt install -y ros-humble-hunter-map-publisher ros-humble-hunter-icp-registration
+sudo apt install -y ros-humble-hunter-map-publisher ros-humble-icp-registration
 ```
