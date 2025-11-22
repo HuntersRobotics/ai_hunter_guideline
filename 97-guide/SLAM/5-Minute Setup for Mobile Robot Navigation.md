@@ -1,6 +1,7 @@
 ---
-title: "[[5分钟部署移动机器人导航]]"
-tags: ["slam"]
+title: "[[5-Minute Setup for Mobile Robot Navigation]]"
+tags:
+  - slam
 author: kaylor
 date_creation: 2025-11-22
 aliases:
@@ -21,7 +22,9 @@ EOF
 ```
 
 # Install ROS2
--  Your X86 Host
+-  X86 Host
+
+**You can set up a simulation environment by referring to the [link](https://github.com/HuntersRobotics/simulation).**
 ```bash
 sudo apt install -y ros2-apt-source
 sudo apt update
