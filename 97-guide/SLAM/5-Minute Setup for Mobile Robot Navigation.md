@@ -91,6 +91,13 @@ StandardOutput=null
 EOF
 ```
 
+> 1. Note the `wlan0` interface in the `/etc/ros/dds/cyclonedds.xml` configuration; it should be replaced with the actual network interface used in your environment.
+> 2. If you need communication interfaces other than `wlan0`, you can duplicate the line, paste it below, and change the interface to `eth0`, making the communication interfaces `wlan0` and `eth0`.
+> 3. Note the DOMAIN ID in the `/etc/ros/dds/service-environment.conf` configuration; it should match the ID used on your local network for Topic monitoring.
+>
+> **!!!!! IMPORTANT: Ensure the interface specified above has an IP address and is connected via Ethernet cable or connected to a wireless network. Otherwise, various ROS2 services will report errors directly !!!!!**
+
+
 # Install Hunter SLAM Software Packages
 ```bash
 sudo apt update
