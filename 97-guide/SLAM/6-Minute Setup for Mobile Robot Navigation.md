@@ -1,5 +1,5 @@
 ---
-title: "[[5-Minute Setup for Mobile Robot Navigation]]"
+title: "[[6-Minute Setup for Mobile Robot Navigation]]"
 tags:
   - slam
 author: kaylor
