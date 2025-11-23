@@ -7,8 +7,8 @@ date_creation: 2025-11-22
 aliases:
 ---
 
-！！！本教程只针对AI Hunter产品，不解决其他产品不兼容的问题！！！  
-！！！This tutorial is specifically for the AI Hunter product and does not address compatibility issues with other products.！！！
+！！！本教程只针对AI Hunter产品，其他产品遇到的兼容性问题不在讨论范围之内！！！  
+！！！This tutorial is intended solely for the AI Hunter product. Compatibility issues encountered with other products are outside the scope of this tutorial.！！！
 # Add kaylordut apt source
 ```bash
 cat << 'EOF' | sudo tee /etc/apt/sources.list.d/kaylordut.list
