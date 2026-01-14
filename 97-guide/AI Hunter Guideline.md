@@ -53,8 +53,8 @@ sudo ./upgrade_tool rd # 复位板卡，板卡即将重启
 > **默认用户是hunter，密码是一个空格**
 
 ## 串口
-### Debug串口
-Debug串口使用的是15000000的波特率。不是所有的串口模块都能支持这个波特率，如果需要使用调试串口的功能，建议购买FT232的串口模块。板卡调试串口使用的是超小的接口，间距1.0mm的sh1.0连接器。
+### Debug串口  
+Debug串口使用的是15000000的波特率。不是所有的串口模块都能支持这个波特率，如果需要使用调试串口的功能，建议购买FT232的串口模块。板卡调试串口使用的是超小的接口，间距1.0mm的sh1.0连接器。   
 ![](AI%20Hunter%20Guideline-12.png)  
 
 ### 485串口
@@ -199,7 +199,6 @@ sudo lspci -vv
 ```bash
 cat << 'EOF' | sudo tee /etc/apt/sources.list.d/kaylordut.list 
 deb [signed-by=/etc/apt/keyrings/kaylor-keyring.gpg] http://apt.kaylordut.cn/kaylordut/ kaylordut main
-deb [signed-by=/etc/apt/keyrings/kaylor-keyring.gpg] http://apt.kaylordut.cn/rk3588/ubuntu jammy main
 EOF
 sudo mkdir /etc/apt/keyrings -pv
 sudo wget -O /etc/apt/keyrings/kaylor-keyring.gpg http://apt.kaylordut.cn/kaylor-keyring.gpg
