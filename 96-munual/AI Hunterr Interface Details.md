@@ -10,7 +10,7 @@ aliases:
 
 ![](AI%20Hunterr%20Interface%20Details.png)  
 
-### 1. RS485 or TTL (UART7)
+### Port1. RS485 or TTL (UART7)
 	Pin define from left to right: 
 
 | **TTL**   | **VCC** | **RX** | **TX** | **GND** |
@@ -22,7 +22,7 @@ aliases:
 
 
 
-### 2. RS485(UART4)
+### Port2. RS485(UART4)
 	Pin define from left to right: 
 
 | **GND** | **TX** | **RX** | **VCC** |
@@ -30,15 +30,15 @@ aliases:
 | **GND** | **B**  | **A**  | **VCC** |
 > default VCC is 5V, mode is RS485
 
-### 3. 1.8V GPIO
+### Port3. 1.8V GPIO
 Pin define from left to right: 
 
 |     |         |         |        |         |
 | --- | ------- | ------- | ------ | ------- |
 | GND | GPIO1D5 | GPIO1D3 | GPIO2C | GPIO4C6 |
 
-### 4. TF card
-### 5. Micro HDMI
+### Port4. TF card
+### Port5. Micro HDMI
 ## Left
 ![](AI%20Hunterr%20Interface%20Details-2.png)  
 ### 1000M Ethernet
@@ -69,7 +69,7 @@ Port1.2 <--> C and D groups
 Port2.1 <--> A and B groups  
 Port2.2 <--> C and D groups
 
-### Debug UART
+### Port3 Debug UART
 This port level is 3.3V, pin define from left to right:
 
 |     |     |     |
@@ -80,21 +80,21 @@ This port level is 3.3V, pin define from left to right:
 ## Right
 ![](AI%20Hunterr%20Interface%20Details-3.png)  
 
-### 1. TTL UART8
+### Port1. TTL UART8
 This port level is 3.3V, pin define from left to right:
 
 |     |     |     |
 | --- | --- | --- |
 | TX  | RX  | GND |
-### 2. MaskROM KEY
+### Port2. MaskROM KEY
 Press it when power on the AI Hunter, the device will enter mask  mode.  you can upgrade your  OS in the mode.
 
-### 3. Type-C
+### Port3. Type-C
 -  The Type-C can connect to a monitor via itself DP signal.
 -  You can upgrade your OS via the port.
 -  Connect a USB hub as USB master
 
-### 4. CAN1 
+### Port4. CAN1 
 
 This port level is 3.3V, pin define from left to right:
 
@@ -102,19 +102,19 @@ This port level is 3.3V, pin define from left to right:
 | ----- | ----- | --- |
 | CAN_H | CAN_L | GND |
 
-### 5. CAN2
+### Port5. CAN2
 This port level is 3.3V, pin define from left to right:
 
 |     |       |       |
 | --- | ----- | ----- |
 | GND | CAN_L | CAN_H |
-### 6. 1.8V ADC Port
+### Port6. 1.8V ADC Port
 Pin define from left to right:
 
 |      |      |      |      |     |
 | ---- | ---- | ---- | ---- | --- |
 | ADC3 | ADC5 | ADC6 | ADC7 | GND |
-### 3.3V GPIO
+### Port7. 3.3V GPIO
 Pin define from left to right:
 
 |     |      |         |         |         |     |
