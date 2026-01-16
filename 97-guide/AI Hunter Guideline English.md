@@ -63,7 +63,7 @@ sudo ./upgrade_tool rd
 ### Serial Ports
 
 #### Debug Serial Port
-- Baud rate: 15,000,000
+- Baud rate: 1,500,000
 - Requires FT232-based serial module
 - Uses SH1.0 connector (1.0mm pitch)
 

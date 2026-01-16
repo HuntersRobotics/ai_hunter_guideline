@@ -57,7 +57,7 @@ Port1.2 <--> C and D groups
 
 ### 2500M Ethernet/Ethercat
 
-| Mode     | Port 1.1 | Port1.2 |
+| Mode     | Port 2.1 | Port2.2 |
 | -------- | -------- | ------- |
 | 10M      | √        | -       |
 | 100M     | √        | -       |
